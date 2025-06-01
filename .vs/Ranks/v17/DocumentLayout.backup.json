@@ -1,0 +1,401 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\rankingappsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:rankingappsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\formdatepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:formdatepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\viewmodels\\tournamentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:viewmodels\\tournamentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\viewmodels\\alltournamentsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:viewmodels\\alltournamentsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\ratingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\ratingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\playerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\playerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\models\\agecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:models\\agecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\data storage\\playerreposotorywithdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:data storage\\playerreposotorywithdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|c:\\users\\berzini\\desktop\\programesana\\ranks\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BFCF098C-ABF0-4AEA-9D64-C9918156B64A}|Ranks.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T18:59:12.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RankingAppsDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\RankingAppsDatabase.cs",
+              "RelativeDocumentMoniker": "RankingAppsDatabase.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\RankingAppsDatabase.cs",
+              "RelativeToolTip": "RankingAppsDatabase.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:55:40.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TournamentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\ViewModels\\TournamentViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TournamentViewModel.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\ViewModels\\TournamentViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TournamentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:54:45.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GameViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:54:36.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AllTournamentsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\ViewModels\\AllTournamentsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AllTournamentsViewModel.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\ViewModels\\AllTournamentsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AllTournamentsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:54:26.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "Services\\PlayerService.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Services\\PlayerService.cs",
+              "RelativeToolTip": "Services\\PlayerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:52.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Tournament.cs",
+              "RelativeDocumentMoniker": "Models\\Tournament.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Tournament.cs",
+              "RelativeToolTip": "Models\\Tournament.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:42.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RatingCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\RatingCalculator.cs",
+              "RelativeDocumentMoniker": "Models\\RatingCalculator.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\RatingCalculator.cs",
+              "RelativeToolTip": "Models\\RatingCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:37.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDatePicker.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\FormDatePicker.cs",
+              "RelativeDocumentMoniker": "FormDatePicker.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\FormDatePicker.cs",
+              "RelativeToolTip": "FormDatePicker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:32:03.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T18:36:13.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerDB.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\PlayerDB.cs",
+              "RelativeDocumentMoniker": "Models\\PlayerDB.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\PlayerDB.cs",
+              "RelativeToolTip": "Models\\PlayerDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:34.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:32:45.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:26.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Models\\Game.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Game.cs",
+              "RelativeToolTip": "Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:14.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Data.cs",
+              "RelativeDocumentMoniker": "Models\\Data.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\Data.cs",
+              "RelativeToolTip": "Models\\Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:10.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AgeCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\AgeCalculator.cs",
+              "RelativeDocumentMoniker": "Models\\AgeCalculator.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Models\\AgeCalculator.cs",
+              "RelativeToolTip": "Models\\AgeCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:53:00.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerReposotoryWithDate.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Data Storage\\PlayerReposotoryWithDate.cs",
+              "RelativeDocumentMoniker": "Data Storage\\PlayerReposotoryWithDate.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Data Storage\\PlayerReposotoryWithDate.cs",
+              "RelativeToolTip": "Data Storage\\PlayerReposotoryWithDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:52:16.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:50:45.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAnwF8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:50:21.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:35:38.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T18:35:20.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Berzini\\Desktop\\Programesana\\Ranks\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:34:39.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

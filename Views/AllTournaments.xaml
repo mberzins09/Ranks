@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ranks.Views.AllTournaments"
+             xmlns:viewmodel="clr-namespace:Ranks.ViewModels"
+             xmlns:model="using:Ranks.Models"
+             x:DataType="viewmodel:AllTournamentsViewModel"
+             Title="All Tournaments"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray900}}">
+    <StackLayout BackgroundColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray900}}">
+        <Label 
+            Text="Tournaments" 
+            FontSize="Title" 
+            TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}"
+            HorizontalOptions="Center"/>
+        <SearchBar
+            x:Name="TournamentsSearchBar"
+            Placeholder="Search Tournaments"
+            TextChanged="TournamentsSearchBar_OnTextChanged"
+            BackgroundColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray900}}"
+        ></SearchBar>
+        <ListView 
+            x:Name ="ListViewTournaments" 
+            BackgroundColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray900}}"
+            SeparatorColor="Green"
+            ItemsSource="{Binding Tournaments}"
+            ItemSelected="ListViewTournaments_OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="model:Tournament">
+                    <ViewCell>
+                        <VerticalStackLayout Spacing="2" Padding="1">
+                            <Label
+                                Text ="{Binding Name}"
+                                TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                VerticalTextAlignment="Center"
+                                HorizontalTextAlignment="Center"></Label>
+                            <Label
+                                Text ="{Binding TournamentDisplay}"
+                                TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}"
+                                FontSize="14"
+                                VerticalTextAlignment="Center"
+                                HorizontalTextAlignment="Center"></Label>
+                        </VerticalStackLayout>
+
+                        <ViewCell.ContextActions>
+                            <MenuItem
+                                Text="Delete"
+                                IsDestructive="True"
+                                Clicked="MenuItem_OnClicked"
+                                CommandParameter="{Binding .}"></MenuItem>
+                        </ViewCell.ContextActions>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </StackLayout>
+</ContentPage>
