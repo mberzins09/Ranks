@@ -1,14 +1,15 @@
 using Ranks.ViewModels;
 using Ranks.Models;
+using Ranks.Services;
 
 namespace Ranks.Views;
 
 public partial class Tournaments : ContentPage
 {
     private readonly TournamentViewModel _viewModel;
-    private readonly RankingAppsDatabase _database;
+    private readonly AppDatabaseService _database;
 
-    public Tournaments(TournamentViewModel viewModel, RankingAppsDatabase database)
+    public Tournaments(TournamentViewModel viewModel, AppDatabaseService database)
     {
         InitializeComponent();
         _viewModel = viewModel;

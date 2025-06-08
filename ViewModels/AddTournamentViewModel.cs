@@ -4,10 +4,9 @@ using Ranks.Services;
 
 namespace Ranks.ViewModels
 {
-    public class AddTournamentViewModel(DatabaseService databaseService, RankingAppsDatabase database) : BaseViewModel
+    public class AddTournamentViewModel(AppDatabaseService database) : BaseViewModel
     {
-        private readonly DatabaseService _databaseService = databaseService;
-        private readonly RankingAppsDatabase _database = database;
+        private readonly AppDatabaseService _database = database;
         public required ObservableCollection<PlayerDB> Players { get; set; }
         public List<PlayerDB> PlayerList { get; set; } = new List<PlayerDB>();
         public required Tournament Tournament { get; set; }
@@ -15,7 +14,7 @@ namespace Ranks.ViewModels
         public async Task LoadDataAsync()
         {
             Tournament = await _database.GetTournamentAsync(Data.TournamentId);
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             PlayerList = players.OrderByDescending(x => x.PointsWithBonus).ToList();
 
             Players = new ObservableCollection<PlayerDB>(PlayerList);
@@ -25,7 +24,7 @@ namespace Ranks.ViewModels
 
         public async Task<List<PlayerDB>> GetPlayers()
         {
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             var list = players.OrderByDescending(x => x.PointsWithBonus).ToList();
 
             return list;

@@ -1,10 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using Ranks;
 using Ranks.Data_Storage;
 using Ranks.Services;
 using Ranks.ViewModels;
 using Ranks.Views;
-using Ranks.Services;
 
 namespace Ranks
 {
@@ -23,8 +21,7 @@ namespace Ranks
 
             builder.Services.AddSingleton<PlayerService>();
             builder.Services.AddSingleton<PlayerServiceWithDate>();
-            builder.Services.AddSingleton<RankingAppsDatabase>();
-            builder.Services.AddSingleton<DatabaseService>();
+            builder.Services.AddSingleton<AppDatabaseService>();
 
             builder.Services.AddSingleton<PlayerViewModel>();
             builder.Services.AddSingleton<GameViewModel>();

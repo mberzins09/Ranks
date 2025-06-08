@@ -4,9 +4,9 @@ using Ranks.Services;
 
 namespace Ranks.ViewModels
 {
-    public class PlayerViewModel(DatabaseService databaseService) : BaseViewModel
+    public class PlayerViewModel(AppDatabaseService database) : BaseViewModel
     {
-        private readonly DatabaseService _databaseService = databaseService;
+        private readonly AppDatabaseService _database = database;
 
         public ObservableCollection<PlayerDB>? Mens { get; set; }
         public ObservableCollection<PlayerDB>? Womens { get; set; }
@@ -14,7 +14,7 @@ namespace Ranks.ViewModels
         public ObservableCollection<PlayerDB>? InactivePlayers { get; set; }
         public async Task LoadPlayersAsyncFromDatabase()
         {
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             Mens = new ObservableCollection<PlayerDB>(players
                                                         .Where(x => x.Gender == "male" & x.Place < 5000)
                                                         .OrderBy(x => x.Place)
@@ -64,7 +64,7 @@ namespace Ranks.ViewModels
 
         public async Task<List<PlayerDB>> GetMenPlayers()
         {
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             var list = players
                 .Where(x => x.Gender == "male" & x.Place < 5000)
                 .OrderBy(x => x.Place)
@@ -75,7 +75,7 @@ namespace Ranks.ViewModels
 
         public async Task<List<PlayerDB>> GetWomenPlayers()
         {
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             var list = players
                 .Where(x => x.Gender == "female" & x.Place < 5000)
                 .OrderBy(x => x.Place)
@@ -86,7 +86,7 @@ namespace Ranks.ViewModels
 
         public async Task<List<PlayerDB>> GetAllPlayers()
         {
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             var list = players
                 .Where(x => x.OverallPlace != 0 & x.OverallPlace < 5000)
                 .OrderBy(x => x.OverallPlace)
@@ -97,7 +97,7 @@ namespace Ranks.ViewModels
 
         public async Task<List<PlayerDB>> GetAllInactivePlayers()
         {
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             var list = players
                 .Where(x => x.OverallPlace != 0 & x.OverallPlace > 5000)
                 .OrderByDescending(x => x.PointsWithBonus)

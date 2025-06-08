@@ -19,7 +19,7 @@ namespace Ranks.Services
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadFromJsonAsync<PlayersResponse>();
-                return result?.Players ?? new List<Player>(); ;
+                return result?.Players ?? new List<Player>();
             }
             
             return null;

@@ -1,11 +1,12 @@
 using System.Collections.ObjectModel;
 using Ranks.Models;
+using Ranks.Services;
 
 namespace Ranks.ViewModels;
 
-public class AllTournamentsViewModel(RankingAppsDatabase database) : BaseViewModel
+public class AllTournamentsViewModel(AppDatabaseService database) : BaseViewModel
 {
-    private readonly RankingAppsDatabase _database = database;
+    private readonly AppDatabaseService _database = database;
     public ObservableCollection<Tournament>? Tournaments { get; set; }
     public List<Tournament> TournamentsList { get; set; } = new List<Tournament>();
 

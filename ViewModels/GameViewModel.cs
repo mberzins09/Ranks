@@ -4,10 +4,9 @@ using Ranks.Services;
 
 namespace Ranks.ViewModels
 {
-    public class GameViewModel(DatabaseService databaseService, RankingAppsDatabase database) : BaseViewModel
+    public class GameViewModel(AppDatabaseService database) : BaseViewModel
     {
-        private readonly DatabaseService _databaseService = databaseService;
-        private readonly RankingAppsDatabase _database = database;
+        private readonly AppDatabaseService _database = database;
         public ObservableCollection<PlayerDB>? Players { get; set; }
         public List<PlayerDB> PlayerList { get; set; } = new List<PlayerDB>();
         public bool IsOpponentForeign { get; set; }
@@ -17,7 +16,7 @@ namespace Ranks.ViewModels
         {
             Game = await _database.GetGameAsync(Data.GameId);
             var tournament = await _database.GetTournamentAsync(Game.TournamentId);
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             PlayerList = players
                 .Where(x =>
                     x.Id != tournament.TournamentPlayerId)
@@ -37,7 +36,7 @@ namespace Ranks.ViewModels
         public async Task<List<PlayerDB>> GetPlayers()
         {
             var tournament = await _database.GetTournamentAsync(Game.TournamentId);
-            var players = await _databaseService.GetPlayersAsync();
+            var players = await _database.GetPlayersAsync();
             var list = players
                 .Where(x =>
                     x.Id != tournament.TournamentPlayerId)

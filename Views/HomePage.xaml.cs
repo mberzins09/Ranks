@@ -8,17 +8,15 @@ namespace Ranks.Views;
 public partial class HomePage : ContentPage
 {
     private readonly PlayerRepository _repository;
-    private readonly RankingAppsDatabase _database;
-    private readonly DatabaseService _databaseService;
+    private readonly AppDatabaseService _database;
     private readonly PlayerReposotoryWithDate _reposotoryWithDate;
 
 
-    public HomePage(PlayerRepository repository, RankingAppsDatabase database, DatabaseService databaseService, PlayerReposotoryWithDate reposotoryWithDate)
+    public HomePage(PlayerRepository repository, AppDatabaseService database, PlayerReposotoryWithDate reposotoryWithDate)
     {
         InitializeComponent();
         _repository = repository;
         _database = database;
-        _databaseService = databaseService;
         _reposotoryWithDate = reposotoryWithDate;
     }
 
@@ -51,7 +49,7 @@ public partial class HomePage : ContentPage
             OverallPlace = 10000,
             BirthDate = ""
         };
-        var p = await _databaseService.GetPlayerAsync(694);
+        var p = await _database.GetPlayerAsync(694);
         if (p != null)
         {
             player.Id = 694;
@@ -87,7 +85,7 @@ public partial class HomePage : ContentPage
     private async void BtnLoadRankings_OnClicked(object? sender, EventArgs e)
     {
         var apiPlayers = await _repository.GetPlayersAsync();
-        List<PlayerDB> dbPlayers = await _databaseService.GetPlayersAsync();
+        List<PlayerDB> dbPlayers = await _database.GetPlayersAsync();
 
         var apiPlayerIds = new HashSet<int>(apiPlayers.Select(p => p.Id));
 
@@ -95,10 +93,10 @@ public partial class HomePage : ContentPage
 
         foreach (var player in missingPlayers)
         {
-            await _databaseService.UpdatePlayerAsync(player);
+            await _database.UpdatePlayerAsync(player);
         }
 
-        await _databaseService.UpsertPlayersAsync(apiPlayers);
+        await _database.UpsertPlayersAsync(apiPlayers);
     }
 
     private async void BtnGames_OnClicked(object? sender, EventArgs e)
@@ -132,7 +130,7 @@ public partial class HomePage : ContentPage
         {
             string dateString = $"{year}-01";
             List<PlayerDB> apiPlayers = await _reposotoryWithDate.GetPlayersAsync(dateString);
-            await _databaseService.UpsertPlayersAsync(apiPlayers);
+            await _database.UpsertPlayersAsync(apiPlayers);
         }
     }
 }
